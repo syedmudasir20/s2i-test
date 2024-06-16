@@ -2,7 +2,7 @@ const port = process.env.PORT || 8080;
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res) => res.send('Hello World From EyesOnCloud! -Version 1!\n'))
+app.get('/', (req, res) => res.send('Hello World From HPE! -Version 1!\n'))
 
 app.get('/readiness', (req, res) => res.send('Ready !!'))
 
